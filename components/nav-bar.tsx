@@ -24,7 +24,7 @@ const NavLink: React.FC<{ href: string; title: string }> = ({
           left: "0",
           backgroundColor: "#000",
           transform: `scaleX(${isActive ? 1 : 0})`,
-          transformOrigin: "bottom right",
+          // transformOrigin: "bottom right",
           transition: "transform 0.3s ease",
         }}
         _hover={{
@@ -53,7 +53,7 @@ const NavBar = () => (
       as="nav"
       m="auto"
       h="100%"
-      maxW={{ lg: "min(1024px, 90vw)", md: "768px", base: "100%" }}
+      maxW={{ md: "80vw", base: "100%" }}
       borderX="0.5px solid"
       borderColor="gray.400"
     >
