@@ -96,6 +96,7 @@ export default function GalleryItem() {
             pb={collection.images.length > 0 ? "1rem" : "0rem"}
             w={{ base: "90%", md: "50%" }}
             mx="auto"
+            justify={{ base: "center", md: "start" }}
           >
             {collection.images.map((item, index) => (
               <DisplayImage {...item} key={index} />
