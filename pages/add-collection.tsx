@@ -22,7 +22,7 @@ export default function AddCollection() {
       >
         New Collection
       </Heading>
-      <GalleryForm />
+      <GalleryForm isNew />
     </>
   );
 }
