@@ -44,7 +44,7 @@ const NavBar = () => (
     borderBottom="0.5px solid"
     borderColor="gray.400"
     as="header"
-    h={{ md: "100px", base: "100px" }}
+    h="100px"
     w="100vw"
   >
     <Flex
@@ -57,7 +57,7 @@ const NavBar = () => (
       borderX="0.5px solid"
       borderColor="gray.400"
     >
-      <NavLink title="All Collections" href="/" />
+      <NavLink title="Gallery" href="/" />
       <NavLink title="Add Collection" href="/add-collection" />
     </Flex>
   </Box>

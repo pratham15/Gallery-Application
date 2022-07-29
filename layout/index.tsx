@@ -7,9 +7,10 @@ const Layout: React.FC<{ children: JSX.Element }> = ({ children }) => (
     borderColor="gray.400"
     w={{ md: "80vw", base: "100%" }}
     maxW="auto"
+    minH="calc(100vh - 100px)"
     mx="auto"
-    h="100%"
     bgColor="gray.100"
+    position="relative"
   >
     {children}
   </Container>
